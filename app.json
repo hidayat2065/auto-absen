@@ -1,0 +1,81 @@
+{
+  "configVersion": "v3",
+
+  "app": {
+    "appId": 29305,
+    "appName": "Auto Absen",
+    "appType": "app",
+    "version": {
+      "code": 5,
+      "name": "1.4.0"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "QR Absen Widget"
+  },
+
+  "permissions": [],
+
+  "runtime": {
+    "apiVersion": {
+      "compatible": "4.0",
+      "target": "4.0",
+      "minVersion": "4.0"
+    }
+  },
+
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        },
+
+        "secondary-widget": {
+          "widgets": [
+            {
+              "path": "secondary-widget/index",
+              "icon": "icon.png",
+              "preview": "preview.png",
+
+              "name": "Absen",
+
+              "i18n": {
+                "en-US": {
+                  "name": "Absen"
+                },
+                "id-ID": {
+                  "name": "Absen"
+                }
+              },
+
+              "runtime": {
+                "type": "js"
+              }
+            }
+          ]
+        }
+      },
+
+      "platforms": [
+        {
+          "st": "r",
+          "dw": 480
+        }
+      ]
+    }
+  },
+
+  "i18n": {
+    "en-US": {
+      "appName": "Auto Absen"
+    },
+    "id-ID": {
+      "appName": "Auto Absen"
+    }
+  },
+
+  "defaultLanguage": "id-ID"
+}
