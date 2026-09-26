@@ -217,13 +217,13 @@ Setelah QR diganti, lakukan build ulang agar QR baru masuk ke package.
 Misalnya QR lama:
 
 ``` text
-Y20260710823
+xxxxxx01
 ```
 
 ingin diganti menjadi:
 
 ``` text
-Y20260926123
+xxxxxx02
 ```
 
 Langkah:
