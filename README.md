@@ -228,7 +228,7 @@ xxxxxx02
 
 Langkah:
 
-1.  Generate QR dengan isi `Y20260926123`.
+1.  Generate QR dengan isi `xxxxxx02`.
 2.  Pastikan ukuran **348 × 348 px**.
 3.  Simpan sebagai `qr.png`.
 4.  Replace:
